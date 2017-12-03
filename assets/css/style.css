@@ -1,0 +1,66 @@
+.jumbotron {
+    background-color: transparent !important;
+    color:#CDA323;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    font-family: 'Lobster', cursive;
+    font-size: 120px;
+    font-weight: 400;
+    text-align:center !important;
+}
+
+
+body{
+    background:
+    url(../images/background_a.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+html {
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+li, p, h4, h5 {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+
+
+.main {
+  background-color: #CA9978; opacity: 0.9;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 200px;
+  height:75%;
+  padding: 10px;
+}
+
+button {
+  background-color: #CDA323;
+  padding: 10px;
+}
+
+.newGame{
+ margin-top: 10px;
+ margin-left: 20px;
+}
+
+
+.sidebar {
+  width: 75%;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-left: 10px
+}
