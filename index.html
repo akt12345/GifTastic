@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Gif - Abby Thoresen</title>
+    <title>GifTastic - Abby Thoresen</title>
     <meta charset="utf-8">
     <!-- Viewport here -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,77 +17,52 @@
 </head>
 
 
-<!-- Very Bare Bones -->
 
-<!-- 2 divs containers- empty and put buttons in when i create them -->
 
-<!-- use bootstrap button class - no need - syle buttons and forms -->
-
-<!-- look at materialze when im done with homework- designed by google -->
-
-<!-- materialze is working with react -->
+<!-- Look at materialze after this is working.. lets try if I have time -->
 
 <body>
 
-   <!-- Bootstrap 4 beta 2- Set it Up! Use card if I have time-->
-
-
-  <!-- Jumbo Tron - title here -->
-    <div class="jumbotron text-center">
-      Title
+     <!-- Header  -->
+    <div class="jumbotron">
+      Wild Animal GIPHY Search
     </div>
 
-<!-- set up the layout here- lets keep it simple -->
-<div class="container-fluid">
+        <!-- Buttons  -->
+        <div id="gifButtonsView" class="container">
+        </div>
+
+        <!-- Main White semi transparent background Container  -->
+        <div class="container">
+            <div class="col-md-9">
+            <!-- gifsViewDiv  -->
+            <div id="gifsView"></div>
+            </div>
 
 
-<div class="row">
+         <!-- Form  -->
 
-
-<!-- set up my divs here use col-md-keep it simple -->
-
-  <div class="col-md-2">
-  </div>
-  <div class="col-md-5 main">
-    <div id="game">
-    </div>
-
-<!-- timer -->
-    <div id="timer">
-    </div>
-
-<!-- restart button -->
-    <div>
-      <button class="newGame">Restart</button>
-    </div>
-  </div>
-
-<!-- owl picture to the right -->
-<div class="col-md-3 picture">
-  </div>
-
-
-  <div class="col-md-2">
-  </div>
-
-</div>
+        <div class="col-md-3">
+            <form id="gif-form" role="form">
+            <h3>Add Your Desired Wild Animal GIPHY Here</h3>
+            <div class="form-group">
+            <input type="text" id="action-input">
+            </div>
+            <input id="addGif" type="submit" value="Submit" class="btn btn-primary">
+            </form>
+          </div>
+      </div>
 
 
 
 
-</div>
-
-
-
-
-    <!-- scripts from my bootstrap_template I created in class Tuesday - dont know if all necessary but I'll include them here -->
+    <!-- scripts from my bootstrap_template - dont know if all necessary but I'll include them here -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-
+  <!-- AJAX here -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- javacsript here -->
   <script type="text/javascript" src="assets/javascript/app.js">

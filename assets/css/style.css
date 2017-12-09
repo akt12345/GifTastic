@@ -1,20 +1,6 @@
-.jumbotron {
-    background-color: transparent !important;
-    color:#CDA323;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 250px;
-    font-family: 'Lobster', cursive;
-    font-size: 120px;
-    font-weight: 400;
-    text-align:center !important;
-}
-
-
-body{
+body {
     background:
-    url(../images/background_a.jpg) no-repeat center center fixed;
+    url(../images/zebra.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,45 +8,55 @@ body{
 }
 
 
+.jumbotron {
+    background: transparent !important;
+    color:#fff;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-size: 100px;
+    text-align:center;
+    font-family: 'Lobster', cursive;
+    text-shadow: #000;
+    font-weight: 400;
+}
+
+
 html {
-  font-size: 14px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-
-
-li, p, h4, h5 {
-  margin-left: 20px;
   font-size: 16px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-
 }
 
 
+img {
+    height: 175px;
+    width: 175px;
+    border-color: #000;
+}
 
-.main {
-  background-color: #CA9978; opacity: 0.9;
-  border-radius: 40px;
-  margin-top: 10px;
-  margin-left: 200px;
-  height:75%;
+
+.btn {
+    margin: 3px;
+    background-color: #000;
+    border-color: #fff;
+}
+
+
+#gifButtonsView  {
+    background-color: #000000;
+}
+
+
+.gifDiv{
+    margin: 4px;
+    float: left;
+}
+
+
+.container {
+  background: #fff;
+  opacity: 0.8;
   padding: 10px;
-}
 
-button {
-  background-color: #CDA323;
-  padding: 10px;
-}
-
-.newGame{
- margin-top: 10px;
- margin-left: 20px;
 }
 
 
-.sidebar {
-  width: 75%;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-left: 10px
-}
+
