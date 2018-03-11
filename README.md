@@ -1,7 +1,7 @@
 # Wild Animal Giphy Seach
 
 ## Overview
-GifTastic is a web application that utilizes the GIPHY API. The application searches the GIPHY API to find gifs by pressing search buttons. There is a selection of buttons that are pre-defined, but users can create other buttons through the form on the right. Gifs are presented with their rating and can be played by pressing them.
+Web application that utilizes the GIPHY API. The application searches the GIPHY API to find gifs by pressing search buttons. There is a selection of buttons that are pre-defined, but users can create other buttons through the form on the right. Gifs are presented with their rating and can be played by pressing them.
 
 
 ## Home Page
