@@ -1,11 +1,31 @@
-# GifTastic
+# Wild Animal Giphy Seach
 
-GifTastic is a web application that utilizes the GIPHY API. The application has the ability to search for gifs based on search criteria. Zachary Saltzman is responsible for all aspects of this application.
+## Overview
+GifTastic is a web application that utilizes the GIPHY API. The application searches the GIPHY API to find gifs by pressing search buttons. There is a selection of buttons that are pre-defined, but users can create other buttons through the form on the right. Gifs are presented with their rating and can be played by pressing them.
 
-Technologies Used: JavaScript, JQuery, HTML5, CSS, Bootstrap, AJAX, and Giphy API
 
-Description:
+## Home Page
+<a href="home_page.jpg" target="_blank"><img src="1A.jpg" alt="index" style="max-width:100%;"></a>
 
-The GifTastic application searches the GIPHY API to find gifs by pressing search buttons. There is a selection of buttons that are pre-defined, but users can create other buttons through the form on the right. Gifs are presented with their rating and can be played by pressing them.
+<a href="home_page.jpg" target="_blank"><img src="2.jpg" alt="index" style="max-width:100%;"></a>
+
+## See it online at:
+https://akt12345.github.io/Wild-Animal-Giphy-Search/
+
+## Technologies Used:
+AJAX
+
+Bootstrap
+
+JQuery
+
+JavaScript
+
+Giphy API
+
+
+## Author
+Abby Thoresen copyright 2018
+
 
 Background Photo Credit to: Brad Wilson
